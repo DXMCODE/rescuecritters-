@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Ifeoluwa Adediran
+  File Name: join-us.html
+  Date: November 2025
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RescueCritters | Join Us</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/baby-hawk.jpg" type="image/jpeg">
+</head>
+
+<script src="scripts/script.js"></script>
+
+<body>
+<a id="top"></a>
+<a class="skip" href="#content">Skip to Content</a>
+
+<div id="wrapper">
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="partnership.html">Partnership</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="faq.html">FAQ</a>
+      <a href="join-us.html">Join Us</a>
+    </div>
+    <a class="nav-icon" onclick="hamburger()"><div id="icon">&#9776;</div></a>
+  </nav>
+
+  <header>
+    <h1>RescueCritters.org</h1>
+    <p>Helping Rescue and Protect Wildlife</p>
+  </header>
+
+  <!-- Desktop Nav -->
+  <nav class="tab-desk">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="partnership.html">Partnership</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="join-us.html">Join Us</a></li>
+    </ul>
+  </nav>
+
+<main id="content">
+
+  <h1>Join Our Team</h1>
+  <p>Interested in volunteering at RescueCritters? Fill out the form below to apply.</p>
+
+  <form action="#" method="post">
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="number" id="phone" name="phone">
+
+    <label for="role">Preferred Role:</label>
+    <select id="role" name="role">
+      <option value="animal-care">Animal Care</option>
+      <option value="transport">Transport / Rescue Pickups</option>
+      <option value="admin">Administrative Help</option>
+      <option value="events">Event Support</option>
+    </select>
+
+    <p>Availability:</p>
+    <input type="radio" id="weekdays" name="availability" value="weekdays" required>
+    <label for="weekdays">Weekdays</label>
+
+    <input type="radio" id="weekends" name="availability" value="weekends">
+    <label for="weekends">Weekends</label>
+
+    <input type="radio" id="both" name="availability" value="both">
+    <label for="both">Both</label>
+
+    <p>Areas You Are Comfortable Helping With:</p>
+    <input type="checkbox" id="feeding" name="tasks" value="feeding">
+    <label for="feeding">Feeding</label><br>
+
+    <input type="checkbox" id="cleaning" name="tasks" value="cleaning">
+    <label for="cleaning">Habitat Cleaning</label><br>
+
+    <input type="checkbox" id="medical" name="tasks" value="medical">
+    <label for="medical">Medical Assistance</label><br>
+
+    <label for="message">Tell us why you want to join:</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+
+    <input type="submit" value="Submit Application">
+
+  </form>
+
+  <p style="text-align:center; margin-top:2rem;">
+    <a href="#top">Back to Top</a>
+  </p>
+
+</main>
+
+<footer>
+  <div class="copyright">
+    <p>&copy; 2025 Wild Rescues</p>
+    <p>All Rights Reserved</p>
+  </div>
+  <div class="social">
+    <a href="https://www.facebook.com" target="_blank">
+      <img src="images/facebook-brands-solid-full.svg" alt="Facebook logo">
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+      <img src="images/x-twitter-brands-solid-full.svg" alt="Twitter logo">
+    </a>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
